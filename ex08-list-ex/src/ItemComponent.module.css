@@ -1,0 +1,36 @@
+.item{
+    border: 1px dotted black;
+    padding: 8px;
+
+    display: flex;
+}
+
+.item .line{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.line1 span:nth-child(1){
+    color: rgb(150, 127, 255);
+    margin-right: 12px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.line1 span:nth-child(2){
+    color: brown;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.line2{
+    color: silver;
+    font-size: 1.5rem;
+}
+
+.img{
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,94 @@
+.container{
+
+    width: 15rem;
+    border: 1px solid gray;
+    margin: 0 auto;
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 60%;
+}
+
+.input{
+    width: 100%;
+    padding: .7rem;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 12px;
+
+    background-color: ghostwhite;
+    border: 1px solid silver;
+    box-sizing: border-box;
+}
+
+.submitButton{
+    width: 100%;
+    padding: .5rem;
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 183, 255, 0.575);
+    border: 0px;
+    color: white;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    width: 100%;
+}
+
+/* CSS를 이용하여 콘텐츠 글씨를 추가할 수 있음 */
+.separator::before{
+    content: "";
+    height: 1px;
+    background-color: silver;
+    flex-grow: 1;
+}
+
+.separator::after{
+    content: "";
+    height: 1px;
+    background-color: silver;
+    flex-grow: 1;
+}
+
+.separator span{
+    padding: 0 1rem;
+}
+
+.loginFacebook a{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.loginFacebook img{
+    height: 1rem;
+    margin-right: .5rem;
+}
+
+.loginFacebook div{
+    font-size: 14px;
+    color: rgba(26, 30, 221, 0.938);
+    font-weight: 400;
+    letter-spacing: .025rem;
+}
+
+.loginForgot{
+    font-size: 12px;
+    color: rgba(26, 30, 221, 0.938);
+    margin: 1rem;
+
+    cursor: pointer;
+}

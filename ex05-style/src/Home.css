@@ -1,0 +1,5 @@
+/* 타입 선택자를 통한 스타일 적용 */
+h3{color: green;}
+
+/* 클래스 선탠자를 통한 스타일 적용(권장) */
+.aa{color: red; font-size: 1.3rem;}

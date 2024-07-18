@@ -1,0 +1,40 @@
+.TodoInput{
+    display: flex;
+    flex-direction: row;
+
+    input{
+        flex: 1; // flex-grow의 축약표현 - weight 같은 느낌
+        padding: 0.5rem;
+        border: none;
+        outline: none; //focus 받을 때 아웃라인 제거
+        font-size: 1.15rem;
+        background-color: white;
+        color: gray;
+
+        &::placeholder{
+            color: burlywood;
+        }
+    }
+
+    button{
+        border: none;
+        background-color: coral;
+        color: white;
+        padding: 1rem;
+
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+
+        &:hover{
+            background-color: orange;
+        }
+
+        &:active{
+            background-color: orangered;
+        }
+
+        transition: background-color .5s;
+    }
+}

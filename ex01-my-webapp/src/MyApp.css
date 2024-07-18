@@ -1,0 +1,15 @@
+/* 1) 요소선택자 스타일 적용 */
+h2{
+    background-color: yellow;
+    padding: 16px;
+}
+
+p{
+    color: blue;
+}
+
+/* 2) React가 권장하는 스타일 선택자는 class 선택자 */
+.root{
+    background-color: antiquewhite;
+    padding: 16px;
+}

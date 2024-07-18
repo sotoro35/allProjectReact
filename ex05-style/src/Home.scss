@@ -1,0 +1,25 @@
+// 심지어 변수를 사용할 수 도 있음
+$menu-text-color: aqua;
+
+// 계층 구조 CSS를 작성
+nav{
+    ul{
+        list-style: none;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+
+        li{
+            display: inline-block;
+
+            a{
+                display: block;
+                padding: 0.5rem 1rem;
+                
+                &:hover{
+                    text-decoration: underline;
+                    color: $menu-text-color;
+                }
+            }
+        }
+    }
+}
